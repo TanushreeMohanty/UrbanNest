@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Container, Button, Form, Row, Col, Card } from "react-bootstrap";
 import "./Home.css"; // Import CSS for styling
 import propImg from '../assets/prop.webp';
+
 const featuredProperties = [
   { id: 1, title: "Modern Apartment", price: "$350,000", img: propImg },
   { id: 2, title: "Luxury Villa", price: "$750,000", img: propImg },
